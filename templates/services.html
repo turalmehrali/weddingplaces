@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    {% block title %}<title>Xidmətlər</title>{% endblock %}
+
+</head>
+<body>
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/services.css' %}">
+    <div class="background">
+        <div class="container">
+            <div class="panel pricing-table">
+
+                {% for service in services %}
+                    <div class="pricing-plan">
+                        <img src="{{ service.image.url }}" alt="" class="pricing-img">
+                        <!-- <h2 class="pricing-header">Small team</h2> -->
+                        <ul class="pricing-features">
+                            <li class="pricing-features-item">{{ service.description }}</li>
+
+                        </ul>
+                        <span class="pricing-price">‎{{ service.price }}₼</span>
+
+                    </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

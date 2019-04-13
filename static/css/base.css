@@ -1,0 +1,175 @@
+
+.base {
+    padding: 10px;
+    background-color: #efe1e2;
+}
+
+.pink {
+    background-color: #ff2d54;
+}
+
+nav a{
+    font-size: 20px;
+}
+
+/*footer*/
+
+footer {
+    min-height: 100px;
+    background-color: #f93b5b;
+}
+
+footer p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #efe1e2;
+    padding-bottom: 10px;
+}
+
+.footer-icon {
+    padding: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: #ff2d54;
+    background-color: #ffffff;
+    transition: 0.7s;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #ff6d9e;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-google {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-youtube {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #ff6d9e;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #ff6d9e;
+    color: white;
+}
+
+/*contact*/
+
+.contact {
+    min-height: 800px;
+    /*background: #ff2d54 url("contact-back.jpg");*/
+
+    background: #f93b5b;
+}
+
+#contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.contact-text {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f93b5b;
+    outline: none;
+    border: ridge white 1px;
+    display: block;
+    margin: 16px 0;
+}
+
+.contact-text:focus{
+    box-shadow: 0 0 10px 0.5px #00ffe5;
+    transition: 0.5s;
+}
+
+.contact-text::placeholder {
+    color: white;
+}
+
+
+.contact-text-subject {
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f93b5b;
+    outline: none;
+    border: ridge white 1px;
+    cursor: text;
+    display: block;
+    margin: 16px 0;
+    color: white;
+    resize: none;
+
+}
+
+.contact-text-subject:focus{
+    box-shadow: 0 0 10px 0.5px #00ffe5;
+    transition: 0.5s;
+}
+
+.contact-text-subject::placeholder{
+    color: white;
+}
+
+
+input{
+    color: white;
+}
+
+.submit-button{
+    width: 100%;
+    padding: 12px 50px;
+    background-color: #f93b5b;
+    border: ridge white 1px;
+    display: block;
+    margin: 16px 0;
+    outline: none;
+}
+
+
+
+.submit-button:hover{
+    background-color: white;
+    color: #f93b5b;
+    transition: 0.7s;
+}
+
